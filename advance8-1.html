@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style>
+        .container{
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0 5px 10px lightgray;
+            
+        }
+        .container section{
+            width:50%
+        }
+        .wrap{
+            padding: 10px 10px;
+        }
+        section{
+            padding: 0 50px;
+           
+        }
+        .container section nav{
+            display: flex;
+            align-items: center;
+        }
+        .container section nav a {
+            text-decoration: none;
+        }
+        .container section nav .item{
+            padding: 10px;
+            font-size: 12px;
+            color: #a3a6ad;
+        }
+        
+        .container section h2{
+            font-size: 30px;
+            font-weight: 100;
+            font-family: serif;
+            /* margin-top: 6px; */
+           }
+        .container section p{
+            width: 80%;
+            font-size: 7px;
+            color:#a3a6ad ;
+            padding-top: -20px;
+        }
+        .content{
+            display: flex;
+            margin-top: 30px;
+        }
+        .container section button{
+            background-color: #89e4bd;
+            width: 100px;
+            height: 20px;
+            border-style: none;
+            border-radius: 20%;
+            margin-top: 20px;
+        }
+        .container section button a{
+            text-decoration: none;
+            color: white;
+            font-size: 8px;
+            padding: 5px 5px;
+            font-weight: bold;
+        }
+        .content .contact h4{
+            font-size: 12px;
+            
+        }
+        .content .contact{
+            width: 33.3%;
+            border-top: 2px solid #a3a6ad;
+        }
+        .content .contact:hover{
+            border-top:2px solid tomato;
+        }
+     
+        aside img{
+            width: 100%;
+            /* margin-left: 28%; */
+        }
+       
+    </style>
+
+</head>
+<body>
+    <div class="container">
+       <section>
+           <div class="wrap">
+           <nav>
+            <ion-icon name="color-palette" class="item"></ion-icon>
+            <a href="#" class="item">Home</a>
+            <a href="#" class="item">Collection</a>
+            <a href="#" class="item">Shop</a>
+            <ion-icon name="logo-facebook" class="item"></ion-icon>
+            <ion-icon name="logo-twitter" class="item"></ion-icon>
+            <ion-icon name="calendar-number" class="item"></ion-icon>
+           </nav>
+           <h2>
+            Because new fashions do never follow trends
+           </h2>
+           <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+           </p>
+           <button>
+               <a href="#">REACT ARTICLE</a> 
+           </button>
+           <footer>
+            <div class="content">
+                <div class="contact">
+                    <h4>Because new fashions do never follow trends</h4>
+                    <p>Article about fashion</p>
+                </div>
+                <div class="contact">
+                    <h4>How to switch from PS to sketch</h4>
+                    <p>Article about design</p>
+                </div>
+                <div class="contact">
+                    <h4>Should deverloper design </h4>
+                    <p>Article about UI design</p>
+           </footer>
+        </div>
+       </section>
+       <aside>
+           <img src="/image/anh8-1.png" alt="">
+       </aside>
+     </div>  
+</body>
+</html>
